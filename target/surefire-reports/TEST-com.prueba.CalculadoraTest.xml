@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.prueba.CalculadoraTest" time="0.068" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.prueba.CalculadoraTest" time="0.085" tests="4" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/home/miguel/workspace/github-classroom/java-test/ejercicio-test/target/test-classes:/home/miguel/workspace/github-classroom/java-test/ejercicio-test/target/classes:/home/miguel/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.1/junit-jupiter-engine-5.9.1.jar:/home/miguel/.m2/repository/org/junit/platform/junit-platform-engine/1.9.1/junit-platform-engine-1.9.1.jar:/home/miguel/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/miguel/.m2/repository/org/junit/platform/junit-platform-commons/1.9.1/junit-platform-commons-1.9.1.jar:/home/miguel/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.1/junit-jupiter-api-5.9.1.jar:/home/miguel/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:"/>
+    <property name="java.class.path" value="/home/miguel/workspace/github-classroom/equipo1/autograding-assignment-v2-equipo1/target/test-classes:/home/miguel/workspace/github-classroom/equipo1/autograding-assignment-v2-equipo1/target/classes:/home/miguel/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.1/junit-jupiter-engine-5.9.1.jar:/home/miguel/.m2/repository/org/junit/platform/junit-platform-engine/1.9.1/junit-platform-engine-1.9.1.jar:/home/miguel/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/miguel/.m2/repository/org/junit/platform/junit-platform-commons/1.9.1/junit-platform-commons-1.9.1.jar:/home/miguel/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.1/junit-jupiter-api-5.9.1.jar:/home/miguel/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:"/>
     <property name="java.vm.vendor" value="Ubuntu"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://ubuntu.com/"/>
@@ -12,9 +12,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ES"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-21-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/miguel/workspace/github-classroom/java-test/ejercicio-test/target/surefire/surefirebooter12925488203889932147.jar /home/miguel/workspace/github-classroom/java-test/ejercicio-test/target/surefire 2024-11-12T11-04-22_757-jvmRun1 surefire17748274173124091004tmp surefire_011371371526980955842tmp"/>
+    <property name="sun.java.command" value="/home/miguel/workspace/github-classroom/equipo1/autograding-assignment-v2-equipo1/target/surefire/surefirebooter4850034181007205680.jar /home/miguel/workspace/github-classroom/equipo1/autograding-assignment-v2-equipo1/target/surefire 2024-11-12T12-26-11_224-jvmRun1 surefire308237672806269542tmp surefire_05401594485481745365tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/home/miguel/workspace/github-classroom/java-test/ejercicio-test/target/test-classes:/home/miguel/workspace/github-classroom/java-test/ejercicio-test/target/classes:/home/miguel/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.1/junit-jupiter-engine-5.9.1.jar:/home/miguel/.m2/repository/org/junit/platform/junit-platform-engine/1.9.1/junit-platform-engine-1.9.1.jar:/home/miguel/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/miguel/.m2/repository/org/junit/platform/junit-platform-commons/1.9.1/junit-platform-commons-1.9.1.jar:/home/miguel/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.1/junit-jupiter-api-5.9.1.jar:/home/miguel/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:"/>
+    <property name="surefire.test.class.path" value="/home/miguel/workspace/github-classroom/equipo1/autograding-assignment-v2-equipo1/target/test-classes:/home/miguel/workspace/github-classroom/equipo1/autograding-assignment-v2-equipo1/target/classes:/home/miguel/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.1/junit-jupiter-engine-5.9.1.jar:/home/miguel/.m2/repository/org/junit/platform/junit-platform-engine/1.9.1/junit-platform-engine-1.9.1.jar:/home/miguel/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/miguel/.m2/repository/org/junit/platform/junit-platform-commons/1.9.1/junit-platform-commons-1.9.1.jar:/home/miguel/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.1/junit-jupiter-api-5.9.1.jar:/home/miguel/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/miguel"/>
     <property name="user.language" value="es"/>
@@ -22,12 +22,12 @@
     <property name="java.version.date" value="2024-10-15"/>
     <property name="java.home" value="/usr/lib/jvm/java-21-openjdk-amd64"/>
     <property name="file.separator" value="/"/>
-    <property name="basedir" value="/home/miguel/workspace/github-classroom/java-test/ejercicio-test"/>
+    <property name="basedir" value="/home/miguel/workspace/github-classroom/equipo1/autograding-assignment-v2-equipo1"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/home/miguel/workspace/github-classroom/java-test/ejercicio-test/target/surefire/surefirebooter12925488203889932147.jar"/>
+    <property name="surefire.real.class.path" value="/home/miguel/workspace/github-classroom/equipo1/autograding-assignment-v2-equipo1/target/surefire/surefirebooter4850034181007205680.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.5+11-Ubuntu-1ubuntu124.04"/>
     <property name="user.name" value="miguel"/>
@@ -41,7 +41,7 @@
     <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-21"/>
     <property name="java.io.tmpdir" value="/tmp"/>
     <property name="java.version" value="21.0.5"/>
-    <property name="user.dir" value="/home/miguel/workspace/github-classroom/java-test/ejercicio-test"/>
+    <property name="user.dir" value="/home/miguel/workspace/github-classroom/equipo1/autograding-assignment-v2-equipo1"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="native.encoding" value="UTF-8"/>
@@ -53,8 +53,12 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testSumar" classname="com.prueba.CalculadoraTest" time="0.035"/>
-  <testcase name="testMultiplicar" classname="com.prueba.CalculadoraTest" time="0.001"/>
-  <testcase name="testDividir" classname="com.prueba.CalculadoraTest" time="0.003"/>
-  <testcase name="testRestar" classname="com.prueba.CalculadoraTest" time="0.002"/>
+  <testcase name="testSumar" classname="com.prueba.CalculadoraTest" time="0.04"/>
+  <testcase name="testMultiplicar" classname="com.prueba.CalculadoraTest" time="0.003"/>
+  <testcase name="testDividir" classname="com.prueba.CalculadoraTest" time="0.012">
+    <failure message="La división de 0 por 2 debería ser 0 ==&gt; expected: &lt;0&gt; but was: &lt;-2&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: La división de 0 por 2 debería ser 0 ==> expected: <0> but was: <-2>
+	at com.prueba.CalculadoraTest.testDividir(CalculadoraTest.java:37)
+]]></failure>
+  </testcase>
+  <testcase name="testRestar" classname="com.prueba.CalculadoraTest" time="0.001"/>
 </testsuite>
