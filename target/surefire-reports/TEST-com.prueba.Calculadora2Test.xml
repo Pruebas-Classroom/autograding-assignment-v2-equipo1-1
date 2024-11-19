@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.prueba.CalculadoraTest" time="0.001" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.prueba.Calculadora2Test" time="0.08" tests="4" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -53,8 +53,12 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testSumar" classname="com.prueba.CalculadoraTest" time="0"/>
-  <testcase name="testMultiplicar" classname="com.prueba.CalculadoraTest" time="0"/>
-  <testcase name="testDividir" classname="com.prueba.CalculadoraTest" time="0"/>
-  <testcase name="testRestar" classname="com.prueba.CalculadoraTest" time="0"/>
+  <testcase name="testSumar" classname="com.prueba.Calculadora2Test" time="0.042"/>
+  <testcase name="testMultiplicar" classname="com.prueba.Calculadora2Test" time="0.001"/>
+  <testcase name="testDividir" classname="com.prueba.Calculadora2Test" time="0.013">
+    <failure message="La división de 4 y 2 debería ser 2 ==&gt; expected: &lt;2&gt; but was: &lt;6&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: La división de 4 y 2 debería ser 2 ==> expected: <2> but was: <6>
+	at com.prueba.Calculadora2Test.testDividir(Calculadora2Test.java:36)
+]]></failure>
+  </testcase>
+  <testcase name="testRestar" classname="com.prueba.Calculadora2Test" time="0"/>
 </testsuite>
